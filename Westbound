@@ -96,7 +96,6 @@ local function BankFarm()
     end
 end
 
--- Main Execution
 RunService.RenderStepped:Connect(function()
     CashRegisterFarm()
     BankFarm()
