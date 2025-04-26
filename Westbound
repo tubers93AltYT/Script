@@ -1,4 +1,3 @@
--- GODMODE Script
 game.StarterGui:SetCore("SendNotification", {
     Title = "Godmode";
     Text = "Godmode executed";
@@ -36,7 +35,6 @@ end
 -- Wait for 2 seconds before executing the Autofarm script
 task.wait(2)
 
--- Autofarm Script
 local Workspace = game:GetService("Workspace")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Players = game:GetService("Players")
